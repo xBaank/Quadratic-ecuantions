@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <math.h>
+
+
+
+int main () {
+	float a,b,c,x,y,q,r,s,t,j,p,w,z;
+     printf("Que valor le quieres dar a: a \n");
+     scanf("%f",&a);
+     printf("Que valor le quieres dar a: b \n");
+     scanf("%f",&b);
+     printf("Que valor le quieres dar a: c \n");
+     scanf("%f",&c);
+     q = b * b;
+     r = -4 * a;
+     s = r * c;
+     t = q + s;
+     j = sqrt (t);
+     p = 2 * a;
+     w = -b + j;
+     z = -b - j;
+     x = w / p;
+     y = z / p;
+     printf("el valor de x es %f y %f \n",x,y);
+     system ("pause");
+     return 0;   
+}
